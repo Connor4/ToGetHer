@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+     <ImageView
+         android:id="@+id/header" 
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@color/cheng"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:layout_margin="15dp"
+       />
+     <TextView 
+         android:id="@+id/nickname"
+         android:layout_toRightOf="@+id/header"
+         android:layout_width="wrap_content"
+         android:layout_height="20dp"
+         android:textSize="15sp"
+         android:textColor="@color/black"
+         android:layout_marginTop="5dp"
+         android:text="用户名"/>
+     <TextView 
+         android:id="@+id/time"
+         android:layout_alignParentRight="true"
+         android:layout_width="wrap_content"
+         android:layout_height="15dp"
+         android:textSize="13sp"
+         android:layout_marginTop="5dp"
+         android:layout_marginRight="10dp"
+         android:text="下午   23:03"/>
+    <TextView 
+         android:id="@+id/text"
+         android:layout_toRightOf="@+id/header"
+         android:layout_below="@+id/nickname"
+         android:layout_width="wrap_content"
+         android:layout_height="20dp"
+         android:textSize="15sp"
+         android:layout_marginTop="5dp"
+         android:text="你好"/>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loading_layout"
+    android:layout_width="110dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:background="@drawable/loading_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="20dp" >
+
+    <ImageView
+        android:id="@+id/imageview_progressdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/progress_loading" />
+
+    <TextView
+        android:id="@+id/text_progressdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="正在登录"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

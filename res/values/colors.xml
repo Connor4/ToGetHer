@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="my_info_bg_normal">#EDEDED</color> 
+   <color name="my_info_bg_pressed">#B7E871</color>
+   <color name="layout_bg_normal">#F2F2F2</color>
+   <color name="orange">#EE7621</color>
+   <color name="bg_gray">#E8E8E8</color>
+   <color name="btn_gray">#8F8F8F</color>
+   <color name="cheng">#D73300</color>
+    <color name="login">#EBD7BF</color>
+    <color name="black">#0F0F0F</color>
+</resources>

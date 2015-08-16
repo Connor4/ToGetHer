@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <ImageView 
+        android:id="@+id/actionapply_header"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/header_default"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1">
+        <RelativeLayout 
+            android:layout_marginTop="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="这只熊"
+                android:id="@+id/userName"
+                android:layout_alignParentLeft="true"
+                android:textSize="16sp"
+                android:textColor="@color/orange"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015-6-1 13:50"
+                android:id="@+id/comment_time"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <TextView 
+            android:id="@+id/comment_content"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不错哦，先报名再说！\n还行啊\n我去我去"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    
+
+</LinearLayout>

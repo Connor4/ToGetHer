@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="left"
+    android:padding="5dip">
+       <ImageView 
+	    android:layout_width="40dp"
+	    android:layout_height="40dp"
+	    android:id="@+id/image"
+	    />
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+	>
+
+        <TextView
+            android:id="@+id/formclient_row_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF000000"
+            android:text="你好" 
+            android:background="@drawable/incoming2"
+        	android:paddingBottom="3.0dip"
+        	android:paddingLeft="15.0dip"
+        	android:paddingRight="10.0dip"
+        	android:paddingTop="10.0dip" />
+    </LinearLayout>
+ 
+
+</LinearLayout>

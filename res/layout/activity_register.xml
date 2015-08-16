@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/base_titlebar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="用户名："
+        android:textColor="@color/orange" />
+
+    <com.running.together.view.MyEditText
+        android:id="@+id/user_account"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg_selector"
+        android:drawableLeft="@drawable/edit_indicator"
+        android:drawableRight="@drawable/drawable_right_icon_selector"
+        android:hint="手机号/邮箱"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="密码："
+        android:textColor="@color/orange" />
+
+    <com.running.together.view.MyEditText
+        android:id="@+id/user_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg_selector"
+        android:drawableLeft="@drawable/edit_indicator"
+        android:drawableRight="@drawable/drawable_right_icon_selector"
+        android:hint="输入密码"
+        android:password="true"
+        android:singleLine="true" />
+
+    <com.running.together.view.MyEditText
+        android:id="@+id/user_password_again"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_bg_selector"
+        android:drawableLeft="@drawable/edit_indicator"
+        android:drawableRight="@drawable/drawable_right_icon_selector"
+        android:hint="确认输入密码"
+        android:password="true"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/agree_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:checked="true"
+            android:text="我已同意并阅读" />
+        <TextView 
+            android:id="@+id/service_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_agreement"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/holo_blue_bright"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_btn_selector"
+        android:text="提交" />
+
+</LinearLayout>
